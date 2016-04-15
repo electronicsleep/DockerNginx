@@ -4,7 +4,7 @@ Author: Chris Robertson <electronicsleep@gmail.com>
 
 Date: 04/14/2016
 
-Purpose: Simple docker nginx implementation
+Purpose: Simple Docker Nginx implementation
 
 Released under the BSD license
 
@@ -25,6 +25,7 @@ Example:
 Usage:
 ```
 Open Terminal
+eval $(docker-machine env default)
 git clone https://github.com/electronicsleep/DockerNginx.git
 cd DockerNginx
 bash -x start.sh
