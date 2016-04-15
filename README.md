@@ -20,6 +20,7 @@ Docker version 1.10.1, build 9e83765
 Add your docker IP to hosts file
 
 Example:
+
 192.168.99.100 	docker.local
 
 Usage:
