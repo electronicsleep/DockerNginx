@@ -1,8 +1,14 @@
 FROM debian:stable
+
+MAINTAINER Chris Robertson <electronicsleep@gmail.com>
+
 RUN apt-get update && apt-get install nginx -y
 
 RUN apt-get install vim -y
 RUN apt-get install curl -y
+
+RUN ln -sf /dev/stdout /var/log/nginx/access.log
+RUN ln -sf /dev/stderr /var/log/nginx/error.log
 
 ADD html/* /var/www/html
 
