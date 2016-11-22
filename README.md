@@ -21,6 +21,7 @@ Add your docker IP to hosts file
 
 Example:
 
+sudo vim /etc/hosts
 192.168.99.100 	docker.local
 
 Usage:
