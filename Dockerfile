@@ -1,6 +1,6 @@
 FROM debian:stable
 
-MAINTAINER Chris Robertson <electronicsleep@gmail.com>
+MAINTAINER Chris Robertson https://github.com/electronicsleep
 
 RUN apt-get update && apt-get install nginx -y
 

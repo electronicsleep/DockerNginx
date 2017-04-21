@@ -1,6 +1,6 @@
 # DockerNginx
 
-Author: Chris Robertson <electronicsleep@gmail.com>
+Author: Chris Robertson https://github.com/electronicsleep
 
 Date: 04/14/2016
 
