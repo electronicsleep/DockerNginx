@@ -31,6 +31,6 @@ Open Terminal
 eval $(docker-machine env default)
 git clone https://github.com/electronicsleep/DockerNginx.git
 cd DockerNginx
-bash -x start.sh
+docker-compose up
 http://docker.local:8080/
 ```
