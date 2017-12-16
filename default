@@ -45,10 +45,11 @@ server {
         # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
         #
         location ~ \.php$ {
+               try_files $uri =404;
                fastcgi_split_path_info ^(.+\.php)(/.+)$;
-               fastcgi_pass 127.0.0.1:9000;
+               fastcgi_pass unix:/run/php/php7.0-fpm.sock;
                fastcgi_index index.php;
-               include fastcgi_params;
+               include fastcgi.conf;
         }
 
         # deny access to .htaccess files, if Apache's document root
