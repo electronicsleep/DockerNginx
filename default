@@ -16,8 +16,8 @@
 # Default server configuration
 #
 server {
-        listen 8080 default_server;
-        listen [::]:8080 default_server;
+        listen 8000 default_server;
+        listen [::]:8000 default_server;
 
         # SSL configuration
         #
@@ -66,8 +66,8 @@ server {
 # to sites-enabled/ to enable it.
 #
 #server {
-#       listen 8080;
-#       listen [::]:8080;
+#       listen 8000;
+#       listen [::]:8000;
 #
 #       server_name example.com;
 #

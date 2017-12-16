@@ -3,13 +3,13 @@ set -x
 
 docker rm dockernginx
 docker build -t dockernginx .
-ID=$(docker run -d -p 8080:8080 --name dockernginx -i dockernginx)
+ID=$(docker run -d -p 8000:8000 --name dockernginx -i dockernginx)
 echo "ID: $CID"
 
 sleep 1
 
 # Example: Run Tests
-OUTPUT=$(curl localhost:8080)
+OUTPUT=$(curl localhost:8000)
 
 CHECK="nginx"
 
