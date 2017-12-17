@@ -8,7 +8,7 @@ Purpose: Simple Docker Nginx implementation
 
 Released under the BSD license
 
-Template for creating a basic Docker, Nginx and PHP7 start using Ubuntu 16
+Template for creating a basic Docker, Nginx and PHP7 microservice using Ubuntu 16
 
 Usage:
 ```
